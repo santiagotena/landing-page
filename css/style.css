@@ -2,42 +2,122 @@
 
 /* General */
 body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px;
 }
 
 /* Main Sections*/
 .header,
-.top{
-    display: flex;
-    flex-direction: column;
-}
+.top,
 .middle{
     display: flex;
     flex-direction: column;
 }
-
-
-/* Sub-sections*/
-.header-top-container{
+.low,
+.footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
+.header{
+    background-color: rgb(29, 37, 48);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.top{
+    padding: 50px;
+}
+.middle{
+    background-color: rgb(225,227,232);
+    padding: 50px;
+}
+.low{
+    background-color: rgb(52,119,245);
+    color: white;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.footer{
+    background-color: rgb(29,37,48);
+    color: white;
+    padding: 25px;
+}
+
+/* Sub-sections */
+/* Header */
+.header-top-container,
 .header-middle-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+.header-middle-container{
+    padding-top: 50px;
+}
+.header-container-left{
+    text-align: left;
+}
+.header-container-right{
+    background-color: rgb(98, 105, 114);
+    width: 400px;
+    height: 175px;
+}
+/* Top */
 .info-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
 }
+/* Middle */
+
+/* Low */
+.low-left-container{
+    text-align: left;
+}
+/* Footer */
 
 
-/*Test Area*/
-
+/* Specifics */
+/* Header */
+.header-button{
+    background-color: rgb(52, 119, 245);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border:rgb(52, 119, 245);
+}
+/* Top */
+.square{
+    border-radius: 25px;
+    border: 3px solid rgb(52,119,245);
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+/* Middle */
+/* Low */
+.low-button{
+    background-color: rgb(52,119,245);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+/* Footer */
