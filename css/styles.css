@@ -27,12 +27,18 @@ button {
 
 .header {
 	flex-direction: column;
+	align-items: center;
 	background-color: #1f2937;
 }
 
 .header-top {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+}
+
+.header-top,
+.upper-section {
+	width: 900px;
 }
 
 .logo {
@@ -51,7 +57,7 @@ button {
 }
 
 .upper-section{
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -109,7 +115,15 @@ button {
 .lower-section {
 	background-color: #3882F6;
 	align-items: center;
+	width: 900px;
 	margin: auto;
+	color: white;
+	padding: 20px;
+}
+
+.lower-left p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .footer {
