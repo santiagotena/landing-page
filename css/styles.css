@@ -138,20 +138,20 @@ button {
 	font-size: 36px;
 	font-style: italic;
 	width: 825px;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 .quote-author {
 	font-weight: bold;
 	align-self: flex-end;
-	margin-top: 0;
 	padding-right: 20px;
+	font-size: 20px;
 }
 
 .lower-section {
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-end;
+	align-items: center;
 	gap: 125px;
 	width: 1000px;
 	margin: auto;
@@ -205,4 +205,5 @@ button {
 
 #call {
 	font-weight: bold;
+	padding-bottom: 10px;
 }
